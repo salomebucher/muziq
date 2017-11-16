@@ -3089,7 +3089,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(237, 43, 69, 0.9);
+    background-color: #359BA9;
     opacity: 0;
     -webkit-transition: opacity 0.25s ease-in-out;
     -moz-transition: opacity 0.25s ease-in-out;
