@@ -745,7 +745,7 @@ textarea {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 8.5px;
-    color: #B1D6E1;
+    color: #81D6E1;
     font-size: 30px;
     line-height: 30px;
 }
@@ -771,7 +771,7 @@ textarea {
     line-height: normal;
     letter-spacing: normal;
     text-align: left;
-    color: #B1D6E1;
+    color: #81D6E1;
 }
 .title.post {
     font-family: 'Roboto', sans-serif;
@@ -829,7 +829,7 @@ p strong {
 }
 p.quote-post {
     font-style: italic;
-    color: #B1D6E1;
+    color: #81D6E1;
     line-height: 33px !important;
     font-size: 18px;
     margin: 57px 40px 65px;
@@ -843,7 +843,7 @@ p.quote-post {
     height: 10px;
 }
 .flickity-page-dots .dot.is-selected {
-    background-color: #B1D6E1;
+    background-color: #81D6E1;
 }
 .no-gutter > [class*='col-'] {
     padding-right: 0;
@@ -1143,7 +1143,7 @@ header .navbar-brand img {
         content: "";
         width: 2px;
         height: 2px;
-        background-color: #B1D6E1;
+        background-color: #81D6E1;
         display: block;
         position: absolute;
         bottom: 12px;
@@ -1171,7 +1171,7 @@ header .navbar-brand img {
 .navbar-default .navbar-nav > li.active > a:hover,
 .navbar-default .navbar-nav > li.active > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-    color: #B1D6E1;
+    color: #81D6E1;
 }
 .navbar-default .navbar-nav > li.active > a:after,
 .navbar-default .navbar-nav > li.active > a:hover:after,
@@ -1197,7 +1197,7 @@ header .navbar-brand img {
 }
 .navbar-default .navbar-toggle:hover .icon-bar,
 .navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #B1D6E1;
+    background-color: #81D6E1;
 }
 .navbar-default .navbar-collapse {
     max-height: 380px;
@@ -1239,7 +1239,7 @@ header .navbar-brand img {
 [4. Footer / #footer]
 */
 footer {
-    background-color: #B1D6E1;
+    background-color: #81D6E1;
     color: #ffffff;
     text-transform: uppercase;
     padding: 35px 45px;
@@ -1336,7 +1336,10 @@ footer ul.menu-footer li a {
 }
 @media (max-width: 767px) {
     .intro .text-overlay {
-        top: 60px;
+        top: 390px;   
+    }
+    #owl-main-text { 
+    height: 50px;
     }
 }
 .intro .slides-pagination {
@@ -1390,7 +1393,7 @@ footer ul.menu-footer li a {
     .primary-title {
         font-size: 100px;
         line-height: 90px;
-        letter-spacing: 20px;
+        letter-spacing: 5px;
     }
 }
 .coming-title {
@@ -1430,8 +1433,10 @@ footer ul.menu-footer li a {
     margin-bottom: 21px;
 }
 #owl-main-text {
-    height: 100px;
+    height: 80px;
 }
+
+
 /* scaleUp */
 .owl-fadeUp-in {
     -webkit-animation: scaleUpFrom 0.8s ease-in-out both;
@@ -1513,7 +1518,7 @@ footer ul.menu-footer li a {
 }
 .cssload-container > div {
     float: left;
-    background: #B1D6E1;
+    background: #81D6E1;
     height: 100%;
     width: 7px;
     margin-right: 1px;
@@ -1856,8 +1861,8 @@ form.newsletter-form .form-group {
     transition: background-color 0.2s ease-out;
 }
 .btn.rounded {
-    background-color: #B1D6E1;
-    color: #ffffff;
+    background-color: #81D6E1;
+    color: #000;
     border: none;
     height: 41px;
     font-style: normal;
@@ -1869,7 +1874,8 @@ form.newsletter-form .form-group {
     border-radius: 20px;
 }
 .btn.rounded:hover {
-    background-color: #0495db;
+    background-color: #359BA9;
+    color: #fff;
 }
 .btn.rounded.unactive {
     background-color: #B7B7B7;
@@ -1885,12 +1891,16 @@ form.newsletter-form .form-group {
     padding-top: 12px !important;
 }
 .btn.border:hover {
-    background-color: #0495db;
-    border-color: #0495db;
+    background-color: #359BA9;
+    border-color: #359BA9;
 }
 .btn.icon {
     padding: 13px 35px 10px 35px;
 }
+#append.btn.rounded,#more-events.btn.rounded {
+    color:white;
+}
+
 input.btn.rounded {
     padding-top: 11px;
 }
@@ -1917,8 +1927,8 @@ input.btn.rounded {
 .btn-invert:active,
 .btn-invert.active {
     color: #ffffff;
-    background-color: #B1D6E1;
-    border-color: #B1D6E1;
+    background-color: #81D6E1;
+    border-color: #81D6E1;
 }
 .close-btn {
     background-image: url('../images/close-ajax.png');
@@ -2159,7 +2169,7 @@ input.btn.rounded {
     border: none;
     width: 64px;
     height: 64px;
-    background: #B1D6E1;
+    background: #81D6E1;
     border-radius: 50%;
     position: relative;
     top: -28px;
@@ -2197,7 +2207,7 @@ input.btn.rounded {
     background-color: #353535;
 }
 .player.horizontal .audiojs .progress {
-    background-color: #B1D6E1;
+    background-color: #81D6E1;
 }
 .player.horizontal .audiojs .time {
     bottom: -50px;
@@ -2477,7 +2487,7 @@ input.btn.rounded {
     transition: color 0.2s ease-out;
 }
 .featured-artist .rollover .social a:hover {
-    color: #B1D6E1;
+    color: #81D6E1;
 }
 .featured-artist .rollover .social li {
     display: block;
@@ -2550,7 +2560,7 @@ ul.contact {
     margin: 26px 0 56px 7px;
 }
 ul.contact i {
-    color: #B1D6E1;
+    color: #81D6E1;
     width: 30px;
 }
 ul.contact i.fa-mobile {
@@ -2592,8 +2602,8 @@ ul.contact li {
     }
 }
 .social-links a:hover {
-    background-color: #B1D6E1;
-    border-color: #B1D6E1;
+    background-color: #81D6E1;
+    border-color: #81D6E1;
 }
 /*------------------------------------------------------------------
 [6.13. list-posts]
@@ -2621,7 +2631,7 @@ p.date {
     position: absolute;
     top: 0;
     left: 15px;
-    background-color: #B1D6E1;
+    background-color: #81D6E1;
     padding: 19px 19px 11px 19px;
 }
 p.date span {
@@ -2727,11 +2737,12 @@ p.date span.month {
     margin-bottom: 30px;
 }
 .quote {
-    border: 5px solid #B1D6E1;
+    border: 5px solid #81D6E1;
     position: relative;
     margin: 0;
     width: 100%;
     padding: 20px;
+    margin-bottom: 5px;
     float: none;
     font-family: 'Roboto', sans-serif;
 }
@@ -2757,7 +2768,7 @@ p.date span.month {
 }
 .quote p.author {
     font-size: 19px;
-    color: #B1D6E1;
+    color: #81D6E1;
     letter-spacing: normal;
     margin-top: 20px;
 }
@@ -2765,7 +2776,7 @@ p.date span.month {
     content: "";
     width: 12px;
     height: 1px;
-    background-color: #B1D6E1;
+    background-color: #81D6E1;
     display: inline-block;
     margin: 0 2px;
     position: relative;
@@ -2809,7 +2820,7 @@ p.date span.month {
     transition: opacity 0.25s ease-in-out;
 }
 .carousel-discography .gallery-cell .cover .rollover i {
-    color: #B1D6E1;
+    color: #81D6E1;
     position: absolute;
     background-color: #ffffff;
     text-align: center;
@@ -2889,7 +2900,7 @@ p.date span.month {
 }
 .info-album p.artist {
     font-weight: 400;
-    color: #B1D6E1;
+    color: #81D6E1;
     padding-bottom: 5px;
 }
 .info-album p.album-list {
@@ -2955,7 +2966,7 @@ ul.slider-twitter .user a [data-scribe$="name"] {
 ul.slider-twitter .user a [data-scribe$="screen_name"] {
     display: block;
     text-transform: uppercase;
-    color: #0495db;
+    color: #359BA9;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 2.6px;
@@ -2994,7 +3005,7 @@ ul.slider-twitter .flickity-page-dots .dot {
 ul.slider-twitter .flickity-page-dots .dot.is-selected {
     width: 10px;
     height: 10px;
-    background-color: #B1D6E1;
+    background-color: #81D6E1;
     position: relative;
     top: 2px;
 }
@@ -3002,7 +3013,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 [6.17. last-media]
 */
 .last-media {
-    border-top: 2px solid #B1D6E1;
+    border-top: 2px solid #81D6E1;
     padding: 0 24px;
 }
 .last-media .filters {
@@ -3030,11 +3041,11 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     }
 }
 .last-media .filters li:hover {
-    border-color: #0495db;
+    border-color: #359BA9;
     cursor: pointer;
 }
 .last-media .filters li.is-checked {
-    border-color: #B1D6E1;
+    border-color: #81D6E1;
     cursor: default;
 }
 .last-media .thumbnails {
@@ -3278,7 +3289,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     background-color: #211E1E;
 }
 .player-album.inverse-color .disc-tracklist li:not(.playing-track) .track-info p.track-title {
-    color: #B1D6E1;
+    color: #81D6E1;
 }
 .player-album.inverse-color .disc-tracklist li:not(.playing) a:hover {
     background-color: #3D3D3D;
@@ -3352,15 +3363,15 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     background: url("../images/players-album.png") 1px -80px no-repeat;
 }
 .disc-tracklist li a:hover {
-    background-color: #B1D6E1;
+    background-color: #81D6E1;
     background-color: #D9D9D9;
 }
 .disc-tracklist li a:hover .track-info {
-    border-color: #B1D6E1;
+    border-color: #81D6E1;
     border-color: #D9D9D9;
 }
 .disc-tracklist li.playing a {
-    background-color: #B1D6E1;
+    background-color: #81D6E1;
 }
 .disc-tracklist li.playing a:after {
     background-position: 1px -2px;
@@ -3368,7 +3379,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     left: 22px;
 }
 .disc-tracklist li.playing a .track-info {
-    border-color: #B1D6E1;
+    border-color: #81D6E1;
 }
 .disc-tracklist li.playing a .track-album,
 .disc-tracklist li.playing a .track-title {
@@ -3416,7 +3427,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     display: none;
 }
 .disc-tracklist li .audiojs.playing {
-    background-color: #B1D6E1;
+    background-color: #81D6E1;
 }
 .disc-tracklist li .audiojs.playing .scrubber,
 .disc-tracklist li .audiojs.playing .time,
@@ -3424,7 +3435,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     display: block;
 }
 .disc-tracklist li.playing-track {
-    background-color: #B1D6E1;
+    background-color: #81D6E1;
 }
 .disc-tracklist li.playing-track p,
 .disc-tracklist li.playing-track p.track-album {
@@ -3439,7 +3450,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     top: 0;
     overflow: visible;
     background-image: none;
-    background-color: #B1D6E1;
+    background-color: #81D6E1;
     background-color: #B4B2B2;
     box-shadow: none;
     width: 100%;
@@ -3642,7 +3653,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 }
 .tour-info p.subtitle-tour {
     font-family: 'Roboto', sans-serif;
-    color: #B1D6E1;
+    color: #81D6E1;
     text-transform: uppercase;
     font-weight: 500;
     margin-bottom: 12px;
@@ -3706,10 +3717,10 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     }
 }
 .tour-info .dates-tour li:hover {
-    color: #B1D6E1;
+    color: #81D6E1;
 }
 .tour-info .dates-tour li.active {
-    background-color: #B1D6E1;
+    background-color: #81D6E1;
     color: #ffffff;
     border: none;
     position: relative;
@@ -3730,7 +3741,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     height: 0;
     border-left: 14px solid transparent;
     border-right: 14px solid transparent;
-    border-bottom: 13px solid #B1D6E1;
+    border-bottom: 13px solid #81D6E1;
     position: absolute;
     top: -12px;
     left: 50%;
@@ -3787,7 +3798,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 }
 .upcomming-events-list li p span {
     display: block;
-    color: #B1D6E1;
+    color: #81D6E1;
     font-family: 'Roboto', sans-serif;
 }
 .upcomming-events-list li .date-event {
@@ -3799,7 +3810,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 }
 @media (min-width: 768px) {
     .upcomming-events-list li .date-event {
-        border-left: 2px solid #B1D6E1;
+        border-left: 2px solid #81D6E1;
         max-width: 134px;
         float: left;
     }
@@ -3963,7 +3974,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 .paginationposts .pagination > li.active > a,
 .paginationposts .pagination > li:hover > span,
 .paginationposts .pagination > li.active > span {
-    background-color: #B1D6E1;
+    background-color: #81D6E1;
     color: #ffffff;
 }
 .paginationposts .pagination > li:first-child > a,
@@ -3985,7 +3996,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 .paginationposts.inverse-color .pagination > li.active > a,
 .paginationposts.inverse-color .pagination > li:hover > span,
 .paginationposts.inverse-color .pagination > li.active > span {
-    background-color: #B1D6E1;
+    background-color: #81D6E1;
 }
 /*------------------------------------------------------------------
 [6.23. shop]
@@ -4114,7 +4125,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     width: 100%;
     background-color: red;
     color: #ffffff;
-    background-color: #B1D6E1;
+    background-color: #81D6E1;
     font-size: 12px;
 }
 .ecommercebar .cart-big .acctions .btn.checkout {
@@ -4122,7 +4133,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     margin-top: 10px;
 }
 .ecommercebar .cart-big .acctions .btn:hover {
-    background-color: #0495db;
+    background-color: #359BA9;
 }
 .ecommercebar .cart .cart-big {
     display: none;
@@ -4279,7 +4290,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     content: attr(data-label);
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    background: #B1D6E1;
+    background: #81D6E1;
     color: #ffffff;
     text-transform: uppercase;
     top: 8px;
@@ -4294,7 +4305,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 .shop-item .info .rating {
     font-size: 14px;
     margin: 23px 0 17px;
-    color: #B1D6E1;
+    color: #81D6E1;
     display: inline-block;
 }
 .shop-item .info .rating i {
@@ -4307,7 +4318,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     font-weight: 500;
     letter-spacing: 1px;
     font-size: 20px;
-    color: #B1D6E1;
+    color: #81D6E1;
 }
 .shop-item .info .price .old-price {
     color: #9F9F9F;
@@ -4325,7 +4336,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 }
 .shop-item .info .artist {
     font-weight: 400;
-    color: #B1D6E1;
+    color: #81D6E1;
     padding-bottom: 5px;
 }
 /*------------------------------------------------------------------
@@ -4389,7 +4400,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 }
 .post-details .post-comments .media > .pull-left {
     margin-right: 12px;
-    background-color: #B1D6E1;
+    background-color: #81D6E1;
 }
 .post-details .post-comments .media-heading {
     font-weight: 700;
@@ -4413,7 +4424,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 .post-details .post-comments .media-body .reply {
     font-size: 14px;
     display: block;
-    color: #B1D6E1;
+    color: #81D6E1;
     font-weight: 700;
 }
 .post-details .post-reply form {
@@ -4448,7 +4459,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     position: relative;
     top: 3px;
     left: 4px;
-    color: #B1D6E1;
+    color: #81D6E1;
 }
 .sidebar .search {
     width: 100%;
@@ -4471,7 +4482,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     font-size: 17px;
 }
 .sidebar .search .input-group-btn i {
-    color: #B1D6E1;
+    color: #81D6E1;
 }
 .sidebar .social {
     margin-top: 27px;
@@ -4575,7 +4586,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     transition: all 0.2s ease-out;
 }
 .sidebar .menu-sidebar li.active {
-    background-color: #B1D6E1;
+    background-color: #81D6E1;
     color: #ffffff;
 }
 .sidebar .last-tweets,
@@ -4612,7 +4623,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 .sidebar .last-comments .date,
 .sidebar .last-posts-sidebar .date {
     font-size: 13px;
-    color: #B1D6E1;
+    color: #81D6E1;
     margin-top: 4px;
 }
 .sidebar .last-comments {
@@ -4647,8 +4658,8 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 }
 .sidebar .list-tags li a:hover {
     color: #ffffff;
-    background-color: #B1D6E1;
-    border-color: #B1D6E1;
+    background-color: #81D6E1;
+    border-color: #81D6E1;
     text-decoration: none;
 }
 .sidebar .last-tweets li,
@@ -4692,7 +4703,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 }
 .sidebar .last-tweets .tweet p a,
 .sidebar .last-comments .tweet p a {
-    color: #B1D6E1;
+    color: #81D6E1;
     text-decoration: none;
 }
 .inverse-color .sidebar .title.small {
