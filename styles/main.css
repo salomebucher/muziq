@@ -730,6 +730,16 @@ textarea {
     font-size: 15px;
     line-height: 15px;
 }
+.pretitle-formation{
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #84B4C3;
+    text-align: center;
+    font-size: 25px;
+    line-height: 25px;
+}
 @media (min-width: 768px) {
     .pretitle {
         font-size: 18px;
