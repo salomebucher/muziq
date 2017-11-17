@@ -331,7 +331,7 @@ if(jQuery().parallax) {
      $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
      if ($target.length) {
        var targetOffset = $target.offset().top;
-        $('html,body').animate({scrollTop: targetOffset-42}, 1000);
+        $('html,body').animate({scrollTop: targetOffset-42}, 2000);
 
         // collapse nav
         $('.navbar-collapse.in').removeClass('in').addClass('collapse');
