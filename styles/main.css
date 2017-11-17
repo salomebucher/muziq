@@ -1393,9 +1393,9 @@ footer ul.menu-footer li a {
 }
 .primary-title {
     font-family : 'Poiret One', cursive;
-    font-weight: 300;
+    font-weight: 500;
     color: #84B4C3;
-    font-size: 50px;
+    font-size: 3em;
     line-height: 50px;
     letter-spacing: 5px;
 }
