@@ -1346,7 +1346,7 @@ footer ul.menu-footer li a {
 }
 @media (max-width: 767px) {
     .intro .text-overlay {
-        top: 390px;   
+        top: 300px;   
     }
     #owl-main-text { 
     height: 50px;
@@ -3868,7 +3868,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    padding: 19px 35px 28px 35px;
+    padding: 19px 20px 28px 20px;
     text-align: center;
     text-align: left;
 }
