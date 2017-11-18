@@ -739,6 +739,8 @@ textarea {
     text-align: center;
     font-size: 25px;
     line-height: 25px;
+	margin-bottom: 10px;
+	margin-top: 20px;
 }
 @media (min-width: 768px) {
     .pretitle {
@@ -2747,7 +2749,7 @@ p.date span.month {
     margin-bottom: 30px;
 }
 .quote {
-    border: 5px solid #81D6E1;
+    border: 2px solid #81D6E1;
     position: relative;
     margin: 0;
     width: 100%;
@@ -2758,7 +2760,7 @@ p.date span.month {
 }
 @media (min-width: 768px) {
     .quote {
-        padding: 36px 20px 30px 60px;
+        padding: 20px 20px 20px 60px;
         float: left;
         width: 50%;
     }
